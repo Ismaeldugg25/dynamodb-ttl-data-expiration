@@ -1,0 +1,4 @@
+aws_region  = "us-east-1"
+environment = "dev"
+owner       = "your-name"
+cost_center = "your-team-or-project"

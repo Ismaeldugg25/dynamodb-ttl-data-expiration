@@ -1,0 +1,25 @@
+# Local .terraform directories
+**/.terraform/*
+
+# State files (contain sensitive data + shouldn't be shared across environments)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files — real values stay local, only the sanitized example gets committed
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Override files (rarely used, but standard to exclude)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files
+.terraformrc
+terraform.rc
